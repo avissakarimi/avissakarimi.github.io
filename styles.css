@@ -1,7 +1,7 @@
 /* styles.css */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: sans-serif; line-height: 1.5; color: #949494; }
-h1 { font-size: 2.5em; color: #bc0f4d; }
+h1 { font-size: 2.5em; color: #bc0f4d; line-height: 1.5; }
 nav { position: fixed; top: 0; width: 100%; background-color: #f4a707; z-index: 100; padding: 0.5rem }
 nav ul { list-style: none; display: flex; gap: 1.5rem; }
 nav a { text-decoration: none; color: #333; }
