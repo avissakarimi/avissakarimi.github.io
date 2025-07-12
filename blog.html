@@ -40,8 +40,11 @@
 </details>
 
     <style>
-details { border: 1px solid #aaa; border-radius: 4px; padding: 10px; margin-bottom: 8px; }
-summary { font-weight: bold; cursor: plus-sign; }
+details summary { list-style: none; cursor: pointer; position: relative; padding-right: 20px; }
+
+details summary::after { content: "➕"; position: absolute; right: 0; }
+
+details[open] summary::after { content: "➖"; }
  </style>
     
    </main>
