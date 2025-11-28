@@ -2,9 +2,9 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: sans-serif; line-height: 1.5; color: #493529; }
 h1 { font-size: 2.5em; color: #bc0f4d; }
-nav { position: fixed; top: 0; width: 100%; background-color: #bc0f4d; z-index: 100; padding: 0.5rem }
+nav { position: fixed; top: 0; width: 100%; background-color: #fcac07; z-index: 100; padding: 0.5rem }
 nav ul { list-style: none; display: flex; gap: 1.5rem; }
 nav a { text-decoration: none; color: #333; }
 nav a:hover { text-decoration: underline; }
-main { padding: 2rem; margin-top: 2rem; color: #f4d8cd }
+main { padding: 2rem; margin-top: 2rem;  }
 
